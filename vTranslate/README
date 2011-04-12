@@ -1,0 +1,17 @@
+GNU/GPL v.3 http://www.gnu.org/licenses/gpl.html or, at your option, any later version
+
+Copy somewhere near your base software directory and mod the files to match your paths.
+
+This will do three things when you run it:
+
+0. Walk through your entire project and locate language files and code
+
+Language files will be converted and code will be updated
+
+1. Convert define() based .php language files into standard .ini files
+
+Based on a root language file, this will put out picture perfect clones - but only the stuff that you actually did translate.
+
+2. Replace all constants in the entire codebase with their JText::_() counterpart that we just created
+
+And that's cool, dude.
